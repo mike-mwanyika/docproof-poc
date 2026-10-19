@@ -1,0 +1,87 @@
+{
+  "file": "synthetic/clean_scan/scan_clean_application_form.pdf",
+  "category": "clean_scan",
+  "doc_type": "application_form",
+  "page_count": 1,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        "Application form",
+        "Applicant name: Acme Laboratories Ltd",
+        "Submission reference: SUB-2026-0500",
+        "Submission date: 2026-10-01",
+        "Product batch: Batch 2207A",
+        "Contact email: regulatory@acmelabs.example",
+        "Declared total (USD): 1200.00",
+        "Declaration | Confirmed",
+        "Data is accurate | [X]",
+        "Samples are representative | [X]",
+        "Testing was done under GLP | [ ]",
+        "Signature:"
+      ]
+    }
+  ],
+  "fields": {
+    "applicant": "Acme Laboratories Ltd",
+    "submission_reference": "SUB-2026-0500",
+    "date": "2026-10-01",
+    "product_batch": "Batch 2207A",
+    "declared_total": "1200.00",
+    "signature_present": true
+  },
+  "tables": [
+    {
+      "page": 1,
+      "rows": [
+        [
+          "Applicant name",
+          "Acme Laboratories Ltd"
+        ],
+        [
+          "Submission reference",
+          "SUB-2026-0500"
+        ],
+        [
+          "Submission date",
+          "2026-10-01"
+        ],
+        [
+          "Product batch",
+          "Batch 2207A"
+        ],
+        [
+          "Contact email",
+          "regulatory@acmelabs.example"
+        ],
+        [
+          "Declared total (USD)",
+          "1200.00"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "page": 1,
+      "rows": [
+        [
+          "Declaration",
+          "Confirmed"
+        ],
+        [
+          "Data is accurate",
+          "[X]"
+        ],
+        [
+          "Samples are representative",
+          "[X]"
+        ],
+        [
+          "Testing was done under GLP",
+          "[ ]"
+        ]
+      ],
+      "merges": []
+    }
+  ]
+}

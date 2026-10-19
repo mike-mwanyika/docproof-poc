@@ -1,0 +1,103 @@
+{
+  "file": "packages/case02_name_mismatch/test_report.pdf",
+  "category": "case_package",
+  "doc_type": "test_report",
+  "page_count": 3,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        "Test report",
+        "Report reference: SUB-2026-0412",
+        "Applicant: Acme Laboratories Ltd",
+        "Product batch: Batch 2207A",
+        "1. Scope",
+        "This report covers the physical and chemical testing of the submitted batch."
+      ]
+    },
+    {
+      "page": 2,
+      "text_lines": [
+        "2. Method",
+        "Samples were tested following the documented procedures with calibrated instruments.",
+        "3. Results",
+        "Test | Limit | Result | Outcome",
+        "Assay (%) | 98.0 - 102.0 | 99.4 | Pass",
+        "pH | 6.5 - 7.5 | 7.1 | Pass",
+        "Moisture (%) | max 2.0 | 1.2 | Pass",
+        "Particle size (um) | max 50 | 38 | Pass"
+      ]
+    },
+    {
+      "page": 3,
+      "text_lines": [
+        "4. Conclusion",
+        "Overall conclusion: PASS. The batch meets the specification.",
+        "Approved by: Dr. L. Otieno, Head of Laboratory"
+      ]
+    }
+  ],
+  "fields": {
+    "reference": "SUB-2026-0412",
+    "applicant": "Acme Laboratories Ltd",
+    "product_batch": "Batch 2207A",
+    "conclusion": "PASS"
+  },
+  "tables": [
+    {
+      "page": 1,
+      "rows": [
+        [
+          "Report reference",
+          "SUB-2026-0412"
+        ],
+        [
+          "Applicant",
+          "Acme Laboratories Ltd"
+        ],
+        [
+          "Product batch",
+          "Batch 2207A"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "page": 2,
+      "rows": [
+        [
+          "Test",
+          "Limit",
+          "Result",
+          "Outcome"
+        ],
+        [
+          "Assay (%)",
+          "98.0 - 102.0",
+          "99.4",
+          "Pass"
+        ],
+        [
+          "pH",
+          "6.5 - 7.5",
+          "7.1",
+          "Pass"
+        ],
+        [
+          "Moisture (%)",
+          "max 2.0",
+          "1.2",
+          "Pass"
+        ],
+        [
+          "Particle size (um)",
+          "max 50",
+          "38",
+          "Pass"
+        ]
+      ],
+      "merges": []
+    }
+  ],
+  "case": "case02_name_mismatch"
+}

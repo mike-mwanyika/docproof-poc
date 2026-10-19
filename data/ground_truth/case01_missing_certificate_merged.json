@@ -1,0 +1,70 @@
+{
+  "file": "packages/case01_missing_certificate/case01_missing_certificate_merged.pdf",
+  "category": "mixed_package",
+  "doc_type": "package",
+  "page_count": 6,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 2,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 3,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 4,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 5,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 6,
+      "text_lines": [
+        ""
+      ]
+    }
+  ],
+  "fields": {},
+  "tables": [],
+  "case": "case01_missing_certificate",
+  "boundaries": [
+    {
+      "doc_type": "cover_letter",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "doc_type": "application_form",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "doc_type": "test_report",
+      "start_page": 3,
+      "end_page": 5
+    },
+    {
+      "doc_type": "invoice",
+      "start_page": 6,
+      "end_page": 6
+    }
+  ],
+  "note": "page text is in the per-document records"
+}

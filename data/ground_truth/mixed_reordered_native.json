@@ -1,0 +1,116 @@
+{
+  "file": "synthetic/mixed_package/mixed_reordered_native.pdf",
+  "category": "mixed_package",
+  "doc_type": "package",
+  "page_count": 7,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 2,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 3,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 4,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 5,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 6,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 7,
+      "text_lines": [
+        ""
+      ]
+    }
+  ],
+  "fields": {},
+  "tables": [],
+  "boundaries": [
+    {
+      "doc_type": "invoice",
+      "start_page": 1,
+      "end_page": 1,
+      "method": "native"
+    },
+    {
+      "doc_type": "certificate",
+      "start_page": 2,
+      "end_page": 2,
+      "method": "native"
+    },
+    {
+      "doc_type": "cover_letter",
+      "start_page": 3,
+      "end_page": 3,
+      "method": "native"
+    },
+    {
+      "doc_type": "test_report",
+      "start_page": 4,
+      "end_page": 6,
+      "method": "native"
+    },
+    {
+      "doc_type": "application_form",
+      "start_page": 7,
+      "end_page": 7,
+      "method": "native"
+    }
+  ],
+  "expected_fields": {
+    "cover_letter": {
+      "submission_reference": "SUB-2026-0900",
+      "product_batch": "Batch 2207A",
+      "date": "2026-10-01"
+    },
+    "application_form": {
+      "applicant": "Acme Laboratories Ltd",
+      "submission_reference": "SUB-2026-0900",
+      "date": "2026-10-01",
+      "product_batch": "Batch 2207A",
+      "declared_total": "1200.00",
+      "signature_present": true
+    },
+    "certificate": {
+      "certificate_number": "CERT-88213",
+      "holder": "Acme Laboratories Ltd",
+      "issue_date": "2026-03-31",
+      "expiry_date": "2027-03-31"
+    },
+    "test_report": {
+      "reference": "SUB-2026-0900",
+      "applicant": "Acme Laboratories Ltd",
+      "product_batch": "Batch 2207A",
+      "conclusion": "PASS"
+    },
+    "invoice": {
+      "invoice_number": "INV-5521",
+      "total": "1200.00",
+      "computed_total": "1200.00"
+    }
+  }
+}

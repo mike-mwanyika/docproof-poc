@@ -1,0 +1,49 @@
+{
+  "case": "case02_name_mismatch",
+  "expected_defects": [
+    {
+      "check": "CHK-04",
+      "description": "certificate holder differs from applicant name"
+    }
+  ],
+  "expected_fields": {
+    "cover_letter": {
+      "submission_reference": "SUB-2026-0412",
+      "product_batch": "Batch 2207A",
+      "date": "2026-10-01"
+    },
+    "application_form": {
+      "applicant": "Acme Laboratories Ltd",
+      "submission_reference": "SUB-2026-0412",
+      "date": "2026-10-01",
+      "product_batch": "Batch 2207A",
+      "declared_total": "1200.00",
+      "signature_present": true
+    },
+    "certificate": {
+      "certificate_number": "CERT-88213",
+      "holder": "Acme Labs Limited",
+      "issue_date": "2026-03-31",
+      "expiry_date": "2027-03-31"
+    },
+    "test_report": {
+      "reference": "SUB-2026-0412",
+      "applicant": "Acme Laboratories Ltd",
+      "product_batch": "Batch 2207A",
+      "conclusion": "PASS"
+    },
+    "invoice": {
+      "invoice_number": "INV-5521",
+      "total": "1200.00",
+      "computed_total": "1200.00"
+    }
+  },
+  "missing_documents": [],
+  "required_documents": [
+    "cover_letter",
+    "application_form",
+    "certificate",
+    "test_report",
+    "invoice"
+  ]
+}

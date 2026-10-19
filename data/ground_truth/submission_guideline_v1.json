@@ -1,0 +1,48 @@
+{
+  "file": "knowledge/submission_guideline_v1.pdf",
+  "category": "knowledge_base",
+  "doc_type": "guideline",
+  "page_count": 3,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        "Submission guideline, version 1.0",
+        "Section 1. Purpose. This guideline sets out what a complete submission contains.",
+        "Section 2. Required documents",
+        "Every submission must include a cover letter, an application form, a valid certificate, a test report and an invoice."
+      ]
+    },
+    {
+      "page": 2,
+      "text_lines": [
+        "Section 3. Supporting evidence",
+        "Supporting evidence consists of one test report covering the submitted batch.",
+        "Section 4. Consistency. The applicant name, submission reference and product batch must be identical in every document."
+      ]
+    },
+    {
+      "page": 3,
+      "text_lines": [
+        "Section 5. Validity",
+        "A certificate must be valid on the submission date.",
+        "Section 6. Retention",
+        "Records are kept for 3 years."
+      ]
+    }
+  ],
+  "fields": {
+    "version": "v1"
+  },
+  "tables": [],
+  "retrieval_probes": [
+    {
+      "question": "How long are records kept?",
+      "answer_contains": "3 years"
+    },
+    {
+      "question": "What supporting evidence is required?",
+      "answer_contains": "one test report"
+    }
+  ]
+}

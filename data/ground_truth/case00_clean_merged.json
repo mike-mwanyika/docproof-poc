@@ -1,0 +1,81 @@
+{
+  "file": "packages/case00_clean/case00_clean_merged.pdf",
+  "category": "mixed_package",
+  "doc_type": "package",
+  "page_count": 7,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 2,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 3,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 4,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 5,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 6,
+      "text_lines": [
+        ""
+      ]
+    },
+    {
+      "page": 7,
+      "text_lines": [
+        ""
+      ]
+    }
+  ],
+  "fields": {},
+  "tables": [],
+  "case": "case00_clean",
+  "boundaries": [
+    {
+      "doc_type": "cover_letter",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "doc_type": "application_form",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "doc_type": "certificate",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "doc_type": "test_report",
+      "start_page": 4,
+      "end_page": 6
+    },
+    {
+      "doc_type": "invoice",
+      "start_page": 7,
+      "end_page": 7
+    }
+  ],
+  "note": "page text is in the per-document records"
+}

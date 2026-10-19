@@ -1,0 +1,48 @@
+{
+  "file": "synthetic/multilingual/french_certificate.pdf",
+  "category": "multilingual",
+  "doc_type": "certificate",
+  "page_count": 1,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        "Certificat d'analyse",
+        "Numéro du certificat: CERT-FR-3301",
+        "Titulaire: Laboratoires Étoile SARL",
+        "Date d'émission: 2026-02-15",
+        "Date d'expiration: 2027-02-14",
+        "Ce certificat atteste que le titulaire respecte les exigences du système qualité décrit ci-dessus."
+      ]
+    }
+  ],
+  "fields": {
+    "certificate_number": "CERT-FR-3301",
+    "holder": "Laboratoires Étoile SARL"
+  },
+  "tables": [
+    {
+      "page": 1,
+      "rows": [
+        [
+          "Numéro du certificat",
+          "CERT-FR-3301"
+        ],
+        [
+          "Titulaire",
+          "Laboratoires Étoile SARL"
+        ],
+        [
+          "Date d'émission",
+          "2026-02-15"
+        ],
+        [
+          "Date d'expiration",
+          "2027-02-14"
+        ]
+      ],
+      "merges": []
+    }
+  ],
+  "language": "fr"
+}

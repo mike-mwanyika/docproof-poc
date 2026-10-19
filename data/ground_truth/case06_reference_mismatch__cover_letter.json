@@ -1,0 +1,26 @@
+{
+  "file": "packages/case06_reference_mismatch/cover_letter.pdf",
+  "category": "case_package",
+  "doc_type": "cover_letter",
+  "page_count": 1,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        "Acme Laboratories Ltd, 14 Mill Road, Nairobi",
+        "Date: 2026-10-01",
+        "Cover letter",
+        "Dear Reviewer, please find enclosed our submission SUB-2026-0412 covering Batch 2207B. The package contains the application form, the certificate CERT-88213, the test report and the invoice.",
+        "We confirm that all information provided is accurate and complete.",
+        "Sincerely, J. Mwangi, Regulatory Affairs"
+      ]
+    }
+  ],
+  "fields": {
+    "submission_reference": "SUB-2026-0412",
+    "product_batch": "Batch 2207B",
+    "date": "2026-10-01"
+  },
+  "tables": [],
+  "case": "case06_reference_mismatch"
+}

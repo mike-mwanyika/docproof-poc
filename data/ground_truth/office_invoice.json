@@ -1,0 +1,61 @@
+{
+  "file": "synthetic/office/office_invoice.xlsx",
+  "category": "office",
+  "doc_type": "invoice",
+  "page_count": 1,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        "Description | Qty | Unit price | Amount",
+        "Sample analysis | 4 | 250.00 | 1000.00",
+        "Certificate issue | 1 | 120.00 | 120.00",
+        "Express handling | 1 | 80.00 | 80.00",
+        "Total (USD) |  |  | 1200.00"
+      ]
+    }
+  ],
+  "fields": {
+    "total": "1200.00"
+  },
+  "tables": [
+    {
+      "page": 1,
+      "rows": [
+        [
+          "Description",
+          "Qty",
+          "Unit price",
+          "Amount"
+        ],
+        [
+          "Sample analysis",
+          "4",
+          "250.00",
+          "1000.00"
+        ],
+        [
+          "Certificate issue",
+          "1",
+          "120.00",
+          "120.00"
+        ],
+        [
+          "Express handling",
+          "1",
+          "80.00",
+          "80.00"
+        ],
+        [
+          "Total (USD)",
+          "",
+          "",
+          "1200.00"
+        ]
+      ],
+      "merges": []
+    }
+  ],
+  "format": "xlsx",
+  "note": "total is a formula; expected value is the computed result"
+}

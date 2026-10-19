@@ -1,0 +1,31 @@
+{
+  "file": "synthetic/handwritten/handwritten_form_2.pdf",
+  "category": "handwritten",
+  "doc_type": "application_form",
+  "page_count": 1,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        "Sample receipt form",
+        "Name: Peter Odhiambo",
+        "Date: 02/10/2026",
+        "Reference: SUB-2026-0455",
+        "Signature:"
+      ]
+    }
+  ],
+  "fields": {
+    "name": "Peter Odhiambo",
+    "date": "02/10/2026",
+    "reference": "SUB-2026-0455"
+  },
+  "tables": [],
+  "handwritten_fields": [
+    "Name",
+    "Date",
+    "Reference"
+  ],
+  "signature_present": true,
+  "note": "handwritten values are expected to be low-confidence or flagged for human check"
+}

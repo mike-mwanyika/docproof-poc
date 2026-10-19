@@ -1,0 +1,67 @@
+{
+  "file": "synthetic/multilingual/german_report.pdf",
+  "category": "multilingual",
+  "doc_type": "test_report",
+  "page_count": 1,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        "Prüfbericht",
+        "Berichtsnummer: PB-2026-117",
+        "Antragsteller: Müller Prüftechnik GmbH",
+        "Chargennummer: Charge 4411",
+        "Prüfung | Grenzwert | Ergebnis",
+        "Größe (µm) | max 50 | 41",
+        "Feuchtigkeit (%) | max 2,0 | 1,4",
+        "Die Charge entspricht der Spezifikation. Die Prüfung erfolgte gemäß Verfahren."
+      ]
+    }
+  ],
+  "fields": {
+    "reference": "PB-2026-117",
+    "applicant": "Müller Prüftechnik GmbH"
+  },
+  "tables": [
+    {
+      "page": 1,
+      "rows": [
+        [
+          "Berichtsnummer",
+          "PB-2026-117"
+        ],
+        [
+          "Antragsteller",
+          "Müller Prüftechnik GmbH"
+        ],
+        [
+          "Chargennummer",
+          "Charge 4411"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "page": 1,
+      "rows": [
+        [
+          "Prüfung",
+          "Grenzwert",
+          "Ergebnis"
+        ],
+        [
+          "Größe (µm)",
+          "max 50",
+          "41"
+        ],
+        [
+          "Feuchtigkeit (%)",
+          "max 2,0",
+          "1,4"
+        ]
+      ],
+      "merges": []
+    }
+  ],
+  "language": "de"
+}

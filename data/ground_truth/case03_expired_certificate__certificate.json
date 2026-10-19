@@ -1,0 +1,55 @@
+{
+  "file": "packages/case03_expired_certificate/certificate.pdf",
+  "category": "case_package",
+  "doc_type": "certificate",
+  "page_count": 1,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        "Certificate of Analysis",
+        "Certificate number: CERT-88213",
+        "Holder: Acme Laboratories Ltd",
+        "Issue date: 2025-06-30",
+        "Expiry date: 2026-06-30",
+        "Scope: Chemical analysis of oral solutions",
+        "This certificate attests that the holder operates a quality system meeting the stated scope."
+      ]
+    }
+  ],
+  "fields": {
+    "certificate_number": "CERT-88213",
+    "holder": "Acme Laboratories Ltd",
+    "issue_date": "2025-06-30",
+    "expiry_date": "2026-06-30"
+  },
+  "tables": [
+    {
+      "page": 1,
+      "rows": [
+        [
+          "Certificate number",
+          "CERT-88213"
+        ],
+        [
+          "Holder",
+          "Acme Laboratories Ltd"
+        ],
+        [
+          "Issue date",
+          "2025-06-30"
+        ],
+        [
+          "Expiry date",
+          "2026-06-30"
+        ],
+        [
+          "Scope",
+          "Chemical analysis of oral solutions"
+        ]
+      ],
+      "merges": []
+    }
+  ],
+  "case": "case03_expired_certificate"
+}

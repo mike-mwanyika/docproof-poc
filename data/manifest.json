@@ -1,0 +1,604 @@
+[
+  {
+    "file": "synthetic/native_pdf/native_application_form.pdf",
+    "category": "native_pdf",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "native_application_form.json"
+  },
+  {
+    "file": "synthetic/native_pdf/native_certificate.pdf",
+    "category": "native_pdf",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "native_certificate.json"
+  },
+  {
+    "file": "synthetic/native_pdf/native_test_report.pdf",
+    "category": "native_pdf",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "native_test_report.json"
+  },
+  {
+    "file": "synthetic/native_pdf/native_invoice.pdf",
+    "category": "native_pdf",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "native_invoice.json"
+  },
+  {
+    "file": "synthetic/clean_scan/scan_clean_application_form.pdf",
+    "category": "clean_scan",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "scan_clean_application_form.json"
+  },
+  {
+    "file": "synthetic/clean_scan/scan_clean_certificate.pdf",
+    "category": "clean_scan",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "scan_clean_certificate.json"
+  },
+  {
+    "file": "synthetic/clean_scan/scan_clean_test_report.pdf",
+    "category": "clean_scan",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "scan_clean_test_report.json"
+  },
+  {
+    "file": "synthetic/clean_scan/scan_clean_invoice.pdf",
+    "category": "clean_scan",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "scan_clean_invoice.json"
+  },
+  {
+    "file": "synthetic/poor_scan/scan_poor_certificate.pdf",
+    "category": "poor_scan",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "scan_poor_certificate.json"
+  },
+  {
+    "file": "synthetic/poor_scan/scan_poor_test_report.pdf",
+    "category": "poor_scan",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "scan_poor_test_report.json"
+  },
+  {
+    "file": "synthetic/poor_scan/scan_poor_invoice.pdf",
+    "category": "poor_scan",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "scan_poor_invoice.json"
+  },
+  {
+    "file": "synthetic/complex_table/complex_table_1.pdf",
+    "category": "complex_table",
+    "doc_type": "specification",
+    "pages": 1,
+    "ground_truth": "complex_table_1.json"
+  },
+  {
+    "file": "synthetic/complex_table/complex_table_2.pdf",
+    "category": "complex_table",
+    "doc_type": "specification",
+    "pages": 1,
+    "ground_truth": "complex_table_2.json"
+  },
+  {
+    "file": "synthetic/complex_table/complex_table_3.pdf",
+    "category": "complex_table",
+    "doc_type": "specification",
+    "pages": 2,
+    "ground_truth": "complex_table_3.json"
+  },
+  {
+    "file": "synthetic/office/office_cover_letter.docx",
+    "category": "office",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "office_cover_letter.json"
+  },
+  {
+    "file": "synthetic/office/office_test_report.docx",
+    "category": "office",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "office_test_report.json"
+  },
+  {
+    "file": "synthetic/office/office_invoice.xlsx",
+    "category": "office",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "office_invoice.json"
+  },
+  {
+    "file": "synthetic/rotated/rotated_scan_report.pdf",
+    "category": "rotated",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "rotated_scan_report.json"
+  },
+  {
+    "file": "synthetic/rotated/rotated_native_report.pdf",
+    "category": "rotated",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "rotated_native_report.json"
+  },
+  {
+    "file": "synthetic/multilingual/french_certificate.pdf",
+    "category": "multilingual",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "french_certificate.json"
+  },
+  {
+    "file": "synthetic/multilingual/german_report.pdf",
+    "category": "multilingual",
+    "doc_type": "test_report",
+    "pages": 1,
+    "ground_truth": "german_report.json"
+  },
+  {
+    "file": "synthetic/handwritten/handwritten_form_1.pdf",
+    "category": "handwritten",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "handwritten_form_1.json"
+  },
+  {
+    "file": "synthetic/handwritten/handwritten_form_2.pdf",
+    "category": "handwritten",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "handwritten_form_2.json"
+  },
+  {
+    "file": "synthetic/mixed_package/mixed_native_and_scanned.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "mixed_native_and_scanned.json"
+  },
+  {
+    "file": "synthetic/mixed_package/mixed_reordered_native.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "mixed_reordered_native.json"
+  },
+  {
+    "file": "knowledge/submission_guideline_v1.pdf",
+    "category": "knowledge_base",
+    "doc_type": "guideline",
+    "pages": 3,
+    "ground_truth": "submission_guideline_v1.json"
+  },
+  {
+    "file": "knowledge/submission_guideline_v2.pdf",
+    "category": "knowledge_base",
+    "doc_type": "guideline",
+    "pages": 3,
+    "ground_truth": "submission_guideline_v2.json"
+  },
+  {
+    "file": "packages/case00_clean/cover_letter.pdf",
+    "category": "case_package",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "case00_clean__cover_letter.json"
+  },
+  {
+    "file": "packages/case00_clean/application_form.pdf",
+    "category": "case_package",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "case00_clean__application_form.json"
+  },
+  {
+    "file": "packages/case00_clean/certificate.pdf",
+    "category": "case_package",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "case00_clean__certificate.json"
+  },
+  {
+    "file": "packages/case00_clean/test_report.pdf",
+    "category": "case_package",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "case00_clean__test_report.json"
+  },
+  {
+    "file": "packages/case00_clean/invoice.pdf",
+    "category": "case_package",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "case00_clean__invoice.json"
+  },
+  {
+    "file": "packages/case00_clean/case00_clean_merged.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "case00_clean_merged.json"
+  },
+  {
+    "file": "packages/case01_missing_certificate/cover_letter.pdf",
+    "category": "case_package",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "case01_missing_certificate__cover_letter.json"
+  },
+  {
+    "file": "packages/case01_missing_certificate/application_form.pdf",
+    "category": "case_package",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "case01_missing_certificate__application_form.json"
+  },
+  {
+    "file": "packages/case01_missing_certificate/test_report.pdf",
+    "category": "case_package",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "case01_missing_certificate__test_report.json"
+  },
+  {
+    "file": "packages/case01_missing_certificate/invoice.pdf",
+    "category": "case_package",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "case01_missing_certificate__invoice.json"
+  },
+  {
+    "file": "packages/case01_missing_certificate/case01_missing_certificate_merged.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 6,
+    "ground_truth": "case01_missing_certificate_merged.json"
+  },
+  {
+    "file": "packages/case02_name_mismatch/cover_letter.pdf",
+    "category": "case_package",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "case02_name_mismatch__cover_letter.json"
+  },
+  {
+    "file": "packages/case02_name_mismatch/application_form.pdf",
+    "category": "case_package",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "case02_name_mismatch__application_form.json"
+  },
+  {
+    "file": "packages/case02_name_mismatch/certificate.pdf",
+    "category": "case_package",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "case02_name_mismatch__certificate.json"
+  },
+  {
+    "file": "packages/case02_name_mismatch/test_report.pdf",
+    "category": "case_package",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "case02_name_mismatch__test_report.json"
+  },
+  {
+    "file": "packages/case02_name_mismatch/invoice.pdf",
+    "category": "case_package",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "case02_name_mismatch__invoice.json"
+  },
+  {
+    "file": "packages/case02_name_mismatch/case02_name_mismatch_merged.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "case02_name_mismatch_merged.json"
+  },
+  {
+    "file": "packages/case03_expired_certificate/cover_letter.pdf",
+    "category": "case_package",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "case03_expired_certificate__cover_letter.json"
+  },
+  {
+    "file": "packages/case03_expired_certificate/application_form.pdf",
+    "category": "case_package",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "case03_expired_certificate__application_form.json"
+  },
+  {
+    "file": "packages/case03_expired_certificate/certificate.pdf",
+    "category": "case_package",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "case03_expired_certificate__certificate.json"
+  },
+  {
+    "file": "packages/case03_expired_certificate/test_report.pdf",
+    "category": "case_package",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "case03_expired_certificate__test_report.json"
+  },
+  {
+    "file": "packages/case03_expired_certificate/invoice.pdf",
+    "category": "case_package",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "case03_expired_certificate__invoice.json"
+  },
+  {
+    "file": "packages/case03_expired_certificate/case03_expired_certificate_merged.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "case03_expired_certificate_merged.json"
+  },
+  {
+    "file": "packages/case04_total_mismatch/cover_letter.pdf",
+    "category": "case_package",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "case04_total_mismatch__cover_letter.json"
+  },
+  {
+    "file": "packages/case04_total_mismatch/application_form.pdf",
+    "category": "case_package",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "case04_total_mismatch__application_form.json"
+  },
+  {
+    "file": "packages/case04_total_mismatch/certificate.pdf",
+    "category": "case_package",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "case04_total_mismatch__certificate.json"
+  },
+  {
+    "file": "packages/case04_total_mismatch/test_report.pdf",
+    "category": "case_package",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "case04_total_mismatch__test_report.json"
+  },
+  {
+    "file": "packages/case04_total_mismatch/invoice.pdf",
+    "category": "case_package",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "case04_total_mismatch__invoice.json"
+  },
+  {
+    "file": "packages/case04_total_mismatch/case04_total_mismatch_merged.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "case04_total_mismatch_merged.json"
+  },
+  {
+    "file": "packages/case05_contradiction/cover_letter.pdf",
+    "category": "case_package",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "case05_contradiction__cover_letter.json"
+  },
+  {
+    "file": "packages/case05_contradiction/application_form.pdf",
+    "category": "case_package",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "case05_contradiction__application_form.json"
+  },
+  {
+    "file": "packages/case05_contradiction/certificate.pdf",
+    "category": "case_package",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "case05_contradiction__certificate.json"
+  },
+  {
+    "file": "packages/case05_contradiction/test_report.pdf",
+    "category": "case_package",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "case05_contradiction__test_report.json"
+  },
+  {
+    "file": "packages/case05_contradiction/invoice.pdf",
+    "category": "case_package",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "case05_contradiction__invoice.json"
+  },
+  {
+    "file": "packages/case05_contradiction/case05_contradiction_merged.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "case05_contradiction_merged.json"
+  },
+  {
+    "file": "packages/case06_reference_mismatch/cover_letter.pdf",
+    "category": "case_package",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "case06_reference_mismatch__cover_letter.json"
+  },
+  {
+    "file": "packages/case06_reference_mismatch/application_form.pdf",
+    "category": "case_package",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "case06_reference_mismatch__application_form.json"
+  },
+  {
+    "file": "packages/case06_reference_mismatch/certificate.pdf",
+    "category": "case_package",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "case06_reference_mismatch__certificate.json"
+  },
+  {
+    "file": "packages/case06_reference_mismatch/test_report.pdf",
+    "category": "case_package",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "case06_reference_mismatch__test_report.json"
+  },
+  {
+    "file": "packages/case06_reference_mismatch/invoice.pdf",
+    "category": "case_package",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "case06_reference_mismatch__invoice.json"
+  },
+  {
+    "file": "packages/case06_reference_mismatch/case06_reference_mismatch_merged.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "case06_reference_mismatch_merged.json"
+  },
+  {
+    "file": "packages/case07_unreadable_page/cover_letter.pdf",
+    "category": "case_package",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "case07_unreadable_page__cover_letter.json"
+  },
+  {
+    "file": "packages/case07_unreadable_page/application_form.pdf",
+    "category": "case_package",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "case07_unreadable_page__application_form.json"
+  },
+  {
+    "file": "packages/case07_unreadable_page/certificate.pdf",
+    "category": "case_package",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "case07_unreadable_page__certificate.json"
+  },
+  {
+    "file": "packages/case07_unreadable_page/test_report.pdf",
+    "category": "case_package",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "case07_unreadable_page__test_report.json"
+  },
+  {
+    "file": "packages/case07_unreadable_page/invoice.pdf",
+    "category": "case_package",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "case07_unreadable_page__invoice.json"
+  },
+  {
+    "file": "packages/case07_unreadable_page/case07_unreadable_page_merged.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "case07_unreadable_page_merged.json"
+  },
+  {
+    "file": "packages/case09_missing_signature/cover_letter.pdf",
+    "category": "case_package",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "case09_missing_signature__cover_letter.json"
+  },
+  {
+    "file": "packages/case09_missing_signature/application_form.pdf",
+    "category": "case_package",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "case09_missing_signature__application_form.json"
+  },
+  {
+    "file": "packages/case09_missing_signature/certificate.pdf",
+    "category": "case_package",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "case09_missing_signature__certificate.json"
+  },
+  {
+    "file": "packages/case09_missing_signature/test_report.pdf",
+    "category": "case_package",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "case09_missing_signature__test_report.json"
+  },
+  {
+    "file": "packages/case09_missing_signature/invoice.pdf",
+    "category": "case_package",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "case09_missing_signature__invoice.json"
+  },
+  {
+    "file": "packages/case09_missing_signature/case09_missing_signature_merged.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "case09_missing_signature_merged.json"
+  },
+  {
+    "file": "packages/case08_injection/cover_letter.pdf",
+    "category": "case_package",
+    "doc_type": "cover_letter",
+    "pages": 1,
+    "ground_truth": "case08_injection__cover_letter.json"
+  },
+  {
+    "file": "packages/case08_injection/application_form.pdf",
+    "category": "case_package",
+    "doc_type": "application_form",
+    "pages": 1,
+    "ground_truth": "case08_injection__application_form.json"
+  },
+  {
+    "file": "packages/case08_injection/certificate.pdf",
+    "category": "case_package",
+    "doc_type": "certificate",
+    "pages": 1,
+    "ground_truth": "case08_injection__certificate.json"
+  },
+  {
+    "file": "packages/case08_injection/test_report.pdf",
+    "category": "case_package",
+    "doc_type": "test_report",
+    "pages": 3,
+    "ground_truth": "case08_injection__test_report.json"
+  },
+  {
+    "file": "packages/case08_injection/invoice.pdf",
+    "category": "case_package",
+    "doc_type": "invoice",
+    "pages": 1,
+    "ground_truth": "case08_injection__invoice.json"
+  },
+  {
+    "file": "packages/case08_injection/case08_injection_merged.pdf",
+    "category": "mixed_package",
+    "doc_type": "package",
+    "pages": 7,
+    "ground_truth": "case08_injection_merged.json"
+  }
+]

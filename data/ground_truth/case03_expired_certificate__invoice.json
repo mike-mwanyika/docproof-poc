@@ -1,0 +1,84 @@
+{
+  "file": "packages/case03_expired_certificate/invoice.pdf",
+  "category": "case_package",
+  "doc_type": "invoice",
+  "page_count": 1,
+  "pages": [
+    {
+      "page": 1,
+      "text_lines": [
+        "Invoice",
+        "Invoice number: INV-5521",
+        "Bill to: Acme Laboratories Ltd",
+        "Submission reference: SUB-2026-0412",
+        "Description | Qty | Unit price | Amount",
+        "Sample analysis | 4 | 250.00 | 1000.00",
+        "Certificate issue | 1 | 120.00 | 120.00",
+        "Express handling | 1 | 80.00 | 80.00",
+        "Total (USD) |  |  | 1200.00"
+      ]
+    }
+  ],
+  "fields": {
+    "invoice_number": "INV-5521",
+    "total": "1200.00",
+    "computed_total": "1200.00"
+  },
+  "tables": [
+    {
+      "page": 1,
+      "rows": [
+        [
+          "Invoice number",
+          "INV-5521"
+        ],
+        [
+          "Bill to",
+          "Acme Laboratories Ltd"
+        ],
+        [
+          "Submission reference",
+          "SUB-2026-0412"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "page": 1,
+      "rows": [
+        [
+          "Description",
+          "Qty",
+          "Unit price",
+          "Amount"
+        ],
+        [
+          "Sample analysis",
+          "4",
+          "250.00",
+          "1000.00"
+        ],
+        [
+          "Certificate issue",
+          "1",
+          "120.00",
+          "120.00"
+        ],
+        [
+          "Express handling",
+          "1",
+          "80.00",
+          "80.00"
+        ],
+        [
+          "Total (USD)",
+          "",
+          "",
+          "1200.00"
+        ]
+      ],
+      "merges": []
+    }
+  ],
+  "case": "case03_expired_certificate"
+}
