@@ -1,0 +1,152 @@
+{
+  "case_id": "CASE-POC",
+  "doc_id": "scan_poor_test_report",
+  "source_file": "scan_poor_test_report.pdf",
+  "source_hash": "6030ebb1cfeed0164e196dbebb3b3d006bafe62dfa484e4c6927d2f873a75428",
+  "engine": "tesseract",
+  "page_count": 3,
+  "file_warnings": [
+    "malware scan skipped: ClamAV not installed in this PoC environment"
+  ],
+  "elements": [
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_test_report",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_test_report.pdf",
+      "source_hash": "6030ebb1cfeed0164e196dbebb3b3d006bafe62dfa484e4c6927d2f873a75428",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.84); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "as",
+      "bbox": [
+        155.7,
+        105.7,
+        171.7,
+        108.3
+      ],
+      "parent_section": null,
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_test_report",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_test_report.pdf",
+      "source_hash": "6030ebb1cfeed0164e196dbebb3b3d006bafe62dfa484e4c6927d2f873a75428",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.84); left as is"
+      ],
+      "element_type": "heading",
+      "text": "4",
+      "bbox": [
+        177.7,
+        67.7,
+        178.7,
+        70.3
+      ],
+      "parent_section": "4",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_test_report",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_test_report.pdf",
+      "source_hash": "6030ebb1cfeed0164e196dbebb3b3d006bafe62dfa484e4c6927d2f873a75428",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.84); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "tele eee SS is So ene",
+      "bbox": [
+        191.3,
+        106.3,
+        213.3,
+        111.3
+      ],
+      "parent_section": "4",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_test_report",
+      "page": 2,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_test_report.pdf",
+      "source_hash": "6030ebb1cfeed0164e196dbebb3b3d006bafe62dfa484e4c6927d2f873a75428",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.34); left as is"
+      ],
+      "element_type": "heading",
+      "text": "2. Method",
+      "bbox": [
+        78.3,
+        69.3,
+        161.7,
+        84.7
+      ],
+      "parent_section": "2. Method",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_test_report",
+      "page": 2,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_test_report.pdf",
+      "source_hash": "6030ebb1cfeed0164e196dbebb3b3d006bafe62dfa484e4c6927d2f873a75428",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.34); left as is"
+      ],
+      "element_type": "figure",
+      "text": "",
+      "bbox": [
+        181.1,
+        169.9,
+        438.9,
+        266.6
+      ],
+      "parent_section": "2. Method",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_test_report",
+      "page": 2,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_test_report.pdf",
+      "source_hash": "6030ebb1cfeed0164e196dbebb3b3d006bafe62dfa484e4c6927d2f873a75428",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.34); left as is"
+      ],
+      "element_type": "table",
+      "text": "",
+      "bbox": [
+        181.1,
+        169.9,
+        438.9,
+        266.6
+      ],
+      "parent_section": "2. Method",
+      "table_ref": "T1",
+      "confidence": null
+    }
+  ],
+  "ok": true,
+  "seconds": 39.03,
+  "routes": {
+    "1": "ocr",
+    "2": "ocr",
+    "3": "ocr"
+  }
+}

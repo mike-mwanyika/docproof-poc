@@ -1,0 +1,135 @@
+{
+ "case00_clean/application_form.pdf": {
+  "docling accurate (current)": 0.8947368421052632,
+  "docling fast": 0.47368421052631576,
+  "docling accurate, no cell matching": 0.8947368421052632,
+  "docling accurate + reorder by position": 0.8947368421052632,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case00_clean/certificate.pdf": {
+  "docling accurate (current)": 0.6,
+  "docling fast": 1.0,
+  "docling accurate, no cell matching": 0.6,
+  "docling accurate + reorder by position": 1.0,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case01_missing_certificate/application_form.pdf": {
+  "docling accurate (current)": 0.8947368421052632,
+  "docling fast": 0.47368421052631576,
+  "docling accurate, no cell matching": 0.8947368421052632,
+  "docling accurate + reorder by position": 0.8947368421052632,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case02_name_mismatch/application_form.pdf": {
+  "docling accurate (current)": 0.8947368421052632,
+  "docling fast": 0.47368421052631576,
+  "docling accurate, no cell matching": 0.8947368421052632,
+  "docling accurate + reorder by position": 0.8947368421052632,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case02_name_mismatch/certificate.pdf": {
+  "docling accurate (current)": 0.6,
+  "docling fast": 1.0,
+  "docling accurate, no cell matching": 0.6,
+  "docling accurate + reorder by position": 1.0,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case03_expired_certificate/application_form.pdf": {
+  "docling accurate (current)": 0.8947368421052632,
+  "docling fast": 0.47368421052631576,
+  "docling accurate, no cell matching": 0.8947368421052632,
+  "docling accurate + reorder by position": 0.8947368421052632,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case03_expired_certificate/certificate.pdf": {
+  "docling accurate (current)": 0.6,
+  "docling fast": 1.0,
+  "docling accurate, no cell matching": 0.6,
+  "docling accurate + reorder by position": 1.0,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case04_total_mismatch/application_form.pdf": {
+  "docling accurate (current)": 0.7894736842105263,
+  "docling fast": 0.47368421052631576,
+  "docling accurate, no cell matching": 0.8421052631578947,
+  "docling accurate + reorder by position": 0.8947368421052632,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case04_total_mismatch/certificate.pdf": {
+  "docling accurate (current)": 0.6,
+  "docling fast": 1.0,
+  "docling accurate, no cell matching": 0.6,
+  "docling accurate + reorder by position": 1.0,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case05_contradiction/application_form.pdf": {
+  "docling accurate (current)": 0.8947368421052632,
+  "docling fast": 0.47368421052631576,
+  "docling accurate, no cell matching": 0.8947368421052632,
+  "docling accurate + reorder by position": 0.8947368421052632,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case05_contradiction/certificate.pdf": {
+  "docling accurate (current)": 0.6,
+  "docling fast": 1.0,
+  "docling accurate, no cell matching": 0.6,
+  "docling accurate + reorder by position": 1.0,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case06_reference_mismatch/application_form.pdf": {
+  "docling accurate (current)": 0.8947368421052632,
+  "docling fast": 0.47368421052631576,
+  "docling accurate, no cell matching": 0.8947368421052632,
+  "docling accurate + reorder by position": 0.8947368421052632,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case06_reference_mismatch/certificate.pdf": {
+  "docling accurate (current)": 0.6,
+  "docling fast": 1.0,
+  "docling accurate, no cell matching": 0.6,
+  "docling accurate + reorder by position": 1.0,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case07_unreadable_page/application_form.pdf": {
+  "docling accurate (current)": 0.8947368421052632,
+  "docling fast": 0.47368421052631576,
+  "docling accurate, no cell matching": 0.8947368421052632,
+  "docling accurate + reorder by position": 0.8947368421052632,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case07_unreadable_page/certificate.pdf": {
+  "docling accurate (current)": 0.6,
+  "docling fast": 1.0,
+  "docling accurate, no cell matching": 0.6,
+  "docling accurate + reorder by position": 1.0,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case08_injection/application_form.pdf": {
+  "docling accurate (current)": 0.8947368421052632,
+  "docling fast": 0.47368421052631576,
+  "docling accurate, no cell matching": 0.8947368421052632,
+  "docling accurate + reorder by position": 0.8947368421052632,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case08_injection/certificate.pdf": {
+  "docling accurate (current)": 0.6,
+  "docling fast": 1.0,
+  "docling accurate, no cell matching": 0.6,
+  "docling accurate + reorder by position": 1.0,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case09_missing_signature/application_form.pdf": {
+  "docling accurate (current)": 0.8947368421052632,
+  "docling fast": 0.47368421052631576,
+  "docling accurate, no cell matching": 0.8947368421052632,
+  "docling accurate + reorder by position": 0.8947368421052632,
+  "pymupdf find_tables (native only)": 1.0
+ },
+ "case09_missing_signature/certificate.pdf": {
+  "docling accurate (current)": 0.6,
+  "docling fast": 1.0,
+  "docling accurate, no cell matching": 0.6,
+  "docling accurate + reorder by position": 1.0,
+  "pymupdf find_tables (native only)": 1.0
+ }
+}

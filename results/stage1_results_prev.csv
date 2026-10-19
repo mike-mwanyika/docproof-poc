@@ -1,0 +1,5 @@
+engine,category,file,failed,reason,cer,wer,table_acc,traceability,seconds,elements,pages
+rapidocr,rotated,rotated_scan_report.pdf,False,,0.02333931777378815,0.056179775280898875,1.0,1.0,123.86,36,3
+rapidocr,rotated,rotated_native_report.pdf,False,,0.0,0.0,1.0,1.0,9.91,36,3
+tesseract,rotated,rotated_scan_report.pdf,False,,0.14542190305206462,0.15730337078651685,0.15,1.0,22.96,32,3
+tesseract,rotated,rotated_native_report.pdf,False,,0.0,0.0,1.0,1.0,10.13,36,3

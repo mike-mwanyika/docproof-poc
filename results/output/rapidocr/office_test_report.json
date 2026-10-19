@@ -1,0 +1,809 @@
+{
+  "case_id": "CASE-POC",
+  "doc_id": "office_test_report",
+  "source_file": "office_test_report.docx",
+  "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+  "engine": "rapidocr",
+  "page_count": 0,
+  "file_warnings": [
+    "malware scan skipped: ClamAV not installed in this PoC environment"
+  ],
+  "elements": [
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "heading",
+      "text": "Test report",
+      "bbox": null,
+      "parent_section": "Test report",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table",
+      "text": "",
+      "bbox": null,
+      "parent_section": "Test report",
+      "table_ref": "T1",
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Report reference",
+      "bbox": null,
+      "parent_section": "Test report",
+      "table_ref": "T1.r0.c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "SUB-2026-0412",
+      "bbox": null,
+      "parent_section": "Test report",
+      "table_ref": "T1.r0.c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Applicant",
+      "bbox": null,
+      "parent_section": "Test report",
+      "table_ref": "T1.r1.c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Acme Laboratories Ltd",
+      "bbox": null,
+      "parent_section": "Test report",
+      "table_ref": "T1.r1.c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Product batch",
+      "bbox": null,
+      "parent_section": "Test report",
+      "table_ref": "T1.r2.c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Batch 2207A",
+      "bbox": null,
+      "parent_section": "Test report",
+      "table_ref": "T1.r2.c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "heading",
+      "text": "1. Scope",
+      "bbox": null,
+      "parent_section": "1. Scope",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "This report covers the physical and chemical testing of the submitted batch.",
+      "bbox": null,
+      "parent_section": "1. Scope",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "",
+      "bbox": null,
+      "parent_section": "1. Scope",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "heading",
+      "text": "2. Method",
+      "bbox": null,
+      "parent_section": "2. Method",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "Samples were tested following the documented procedures with calibrated instruments.",
+      "bbox": null,
+      "parent_section": "2. Method",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "heading",
+      "text": "3. Results",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table",
+      "text": "",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2",
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Test",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r0.c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Limit",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r0.c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Result",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r0.c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Outcome",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r0.c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Assay (%)",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r1.c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "98.0 - 102.0",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r1.c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "99.4",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r1.c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Pass",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r1.c3",
+      "row": 1,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "pH",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r2.c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "6.5 - 7.5",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r2.c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "7.1",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r2.c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Pass",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r2.c3",
+      "row": 2,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Moisture (%)",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r3.c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "max 2.0",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r3.c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "1.2",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r3.c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Pass",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r3.c3",
+      "row": 3,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Particle size (um)",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r4.c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "max 50",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r4.c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "38",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r4.c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "table_cell",
+      "text": "Pass",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": "T2.r4.c3",
+      "row": 4,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "",
+      "bbox": null,
+      "parent_section": "3. Results",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "heading",
+      "text": "4. Conclusion",
+      "bbox": null,
+      "parent_section": "4. Conclusion",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "Overall conclusion: PASS. The batch meets the specification.",
+      "bbox": null,
+      "parent_section": "4. Conclusion",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_test_report",
+      "page": null,
+      "method": "native",
+      "source_file": "office_test_report.docx",
+      "source_hash": "06096a77b15316ba8a059fc7249f0e8d12b747a4c938200b832361cfbce70420",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "Approved by: Dr. L. Otieno, Head of Laboratory",
+      "bbox": null,
+      "parent_section": "4. Conclusion",
+      "table_ref": null,
+      "confidence": null
+    }
+  ],
+  "ok": true,
+  "seconds": 0.15,
+  "routes": {}
+}

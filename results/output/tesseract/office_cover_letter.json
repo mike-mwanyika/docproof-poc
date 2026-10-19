@@ -1,0 +1,118 @@
+{
+  "case_id": "CASE-POC",
+  "doc_id": "office_cover_letter",
+  "source_file": "office_cover_letter.docx",
+  "source_hash": "d8392406f93378c7b393f48ee038252bd36f8fc99befadb1effdb6a1669843d6",
+  "engine": "tesseract",
+  "page_count": 0,
+  "file_warnings": [
+    "malware scan skipped: ClamAV not installed in this PoC environment"
+  ],
+  "elements": [
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_cover_letter",
+      "page": null,
+      "method": "native",
+      "source_file": "office_cover_letter.docx",
+      "source_hash": "d8392406f93378c7b393f48ee038252bd36f8fc99befadb1effdb6a1669843d6",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "Acme Laboratories Ltd, 14 Mill Road, Nairobi",
+      "bbox": null,
+      "parent_section": null,
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_cover_letter",
+      "page": null,
+      "method": "native",
+      "source_file": "office_cover_letter.docx",
+      "source_hash": "d8392406f93378c7b393f48ee038252bd36f8fc99befadb1effdb6a1669843d6",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "Date: 2026-10-01",
+      "bbox": null,
+      "parent_section": null,
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_cover_letter",
+      "page": null,
+      "method": "native",
+      "source_file": "office_cover_letter.docx",
+      "source_hash": "d8392406f93378c7b393f48ee038252bd36f8fc99befadb1effdb6a1669843d6",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "heading",
+      "text": "Cover letter",
+      "bbox": null,
+      "parent_section": "Cover letter",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_cover_letter",
+      "page": null,
+      "method": "native",
+      "source_file": "office_cover_letter.docx",
+      "source_hash": "d8392406f93378c7b393f48ee038252bd36f8fc99befadb1effdb6a1669843d6",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "Dear Reviewer, please find enclosed our submission SUB-2026-0412 covering Batch 2207A. The package contains the application form, the certificate CERT-88213, the test report and the invoice.",
+      "bbox": null,
+      "parent_section": "Cover letter",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_cover_letter",
+      "page": null,
+      "method": "native",
+      "source_file": "office_cover_letter.docx",
+      "source_hash": "d8392406f93378c7b393f48ee038252bd36f8fc99befadb1effdb6a1669843d6",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "We confirm that all information provided is accurate and complete.",
+      "bbox": null,
+      "parent_section": "Cover letter",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "office_cover_letter",
+      "page": null,
+      "method": "native",
+      "source_file": "office_cover_letter.docx",
+      "source_hash": "d8392406f93378c7b393f48ee038252bd36f8fc99befadb1effdb6a1669843d6",
+      "warnings": [
+        "no page position in this format"
+      ],
+      "element_type": "paragraph",
+      "text": "Sincerely, J. Mwangi, Regulatory Affairs",
+      "bbox": null,
+      "parent_section": "Cover letter",
+      "table_ref": null,
+      "confidence": null
+    }
+  ],
+  "ok": true,
+  "seconds": 0.37,
+  "routes": {}
+}

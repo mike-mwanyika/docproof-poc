@@ -1,0 +1,282 @@
+{
+  "case_id": "CASE-POC",
+  "doc_id": "scan_poor_certificate",
+  "source_file": "scan_poor_certificate.pdf",
+  "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+  "engine": "tesseract",
+  "page_count": 1,
+  "file_warnings": [
+    "malware scan skipped: ClamAV not installed in this PoC environment"
+  ],
+  "elements": [
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "heading",
+      "text": "Certificate of Analysis",
+      "bbox": [
+        64.0,
+        64.3,
+        253.0,
+        92.3
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "Cort ate rurtber",
+      "bbox": [
+        70.3,
+        112.0,
+        161.3,
+        124.7
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "wove",
+      "bbox": [
+        70.0,
+        127.0,
+        105.0,
+        143.7
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "tesue date",
+      "bbox": [
+        70.7,
+        142.7,
+        122.3,
+        162.0
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "Erpiry date CERT.-?7316",
+      "bbox": [
+        70.7,
+        163.0,
+        126.7,
+        179.3
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "heme Later eters (nt",
+      "bbox": [
+        226.3,
+        125.0,
+        330.0,
+        141.3
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "3!",
+      "bbox": [
+        228.3,
+        147.0,
+        278.0,
+        156.3
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "3077-03-31",
+      "bbox": [
+        226.7,
+        161.3,
+        278.3,
+        177.7
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "ope Cremacat aratyes of oft sckzcem",
+      "bbox": [
+        72.7,
+        184.0,
+        103.3,
+        197.7
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": ";",
+      "bbox": [
+        443.3,
+        139.3,
+        446.3,
+        140.7
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": "Thee cortiinate stheste Guat Ow hoktar Upevslen & quilily apiietn meetes tes stated scope",
+      "bbox": [
+        65.7,
+        212.0,
+        459.7,
+        227.0
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_certificate",
+      "page": 1,
+      "method": "ocr:tesseract",
+      "source_file": "scan_poor_certificate.pdf",
+      "source_hash": "88e03000becb14270382bed18f71acf52b08630e07fe149036fcfababb56085f",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.21); left as is"
+      ],
+      "element_type": "paragraph",
+      "text": ".",
+      "bbox": [
+        466.7,
+        219.0,
+        467.7,
+        220.0
+      ],
+      "parent_section": "Certificate of Analysis",
+      "table_ref": null,
+      "confidence": null
+    }
+  ],
+  "ok": true,
+  "seconds": 6.91,
+  "routes": {
+    "1": "ocr"
+  }
+}

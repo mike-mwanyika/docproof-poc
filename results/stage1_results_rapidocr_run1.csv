@@ -1,0 +1,47 @@
+engine,category,file,failed,reason,cer,wer,table_acc,traceability,seconds,elements,pages
+rapidocr,native_pdf,native_application_form.pdf,False,,0.0,0.0,1.0,1.0,40.19,24,1
+rapidocr,native_pdf,native_certificate.pdf,False,,0.0,0.0,,1.0,4.36,13,1
+rapidocr,native_pdf,native_test_report.pdf,False,,0.0,0.0,1.0,1.0,13.74,36,3
+rapidocr,native_pdf,native_invoice.pdf,False,,0.0,0.0,1.0,1.0,6.7,27,1
+rapidocr,clean_scan,scan_clean_application_form.pdf,False,,0.030864197530864196,0.04878048780487805,1.0,1.0,9.86,25,1
+rapidocr,clean_scan,scan_clean_certificate.pdf,False,,0.003816793893129771,0.05555555555555555,,1.0,7.35,13,1
+rapidocr,clean_scan,scan_clean_test_report.pdf,False,,0.02333931777378815,0.056179775280898875,1.0,1.0,28.27,36,3
+rapidocr,clean_scan,scan_clean_invoice.pdf,False,,0.0,0.0,1.0,1.0,10.79,27,1
+rapidocr,poor_scan,scan_poor_certificate.pdf,False,,0.35877862595419846,0.6666666666666666,,1.0,5.07,10,1
+rapidocr,poor_scan,scan_poor_test_report.pdf,False,,0.6983842010771992,0.797752808988764,0.0,1.0,15.12,17,3
+rapidocr,poor_scan,scan_poor_invoice.pdf,False,,0.4717741935483871,0.6,0.1111111111111111,1.0,7.55,12,1
+rapidocr,complex_table,complex_table_1.pdf,False,,0.11764705882352941,0.06944444444444445,0.9245283018867925,1.0,11.56,53,1
+rapidocr,complex_table,complex_table_2.pdf,False,,0.10824742268041238,0.06329113924050633,0.9322033898305084,1.0,9.99,59,1
+rapidocr,complex_table,complex_table_3.pdf,False,,0.13291139240506328,0.08,0.9148936170212766,1.0,14.0,93,2
+rapidocr,office,office_cover_letter.docx,False,,1.0,1.0,,0.0,0.19,0,0
+rapidocr,office,office_test_report.docx,False,,1.0,1.0,0.0,0.0,0.18,0,0
+rapidocr,office,office_invoice.xlsx,False,,0.25165562913907286,0.30434782608695654,0.6111111111111112,1.0,0.05,21,1
+rapidocr,rotated,rotated_scan_report.pdf,False,,0.35547576301615796,0.39325842696629215,1.0,1.0,36.98,37,3
+rapidocr,rotated,rotated_native_report.pdf,False,,0.38061041292639136,0.3146067415730337,0.1,1.0,11.04,36,3
+rapidocr,multilingual,french_certificate.pdf,False,,0.0,0.0,,1.0,4.07,11,1
+rapidocr,multilingual,german_report.pdf,False,,0.0,0.0,1.0,1.0,5.48,19,1
+rapidocr,handwritten,handwritten_form_1.pdf,False,,0.5568181818181818,0.6363636363636364,,1.0,7.3,9,1
+rapidocr,handwritten,handwritten_form_2.pdf,False,,0.5617977528089888,0.5454545454545454,,1.0,6.36,9,1
+tesseract,native_pdf,native_application_form.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,1.7133706999884453,,
+tesseract,native_pdf,native_certificate.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.4898650999821257,,
+tesseract,native_pdf,native_test_report.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.5071543999947608,,
+tesseract,native_pdf,native_invoice.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.4706550000119023,,
+tesseract,clean_scan,scan_clean_application_form.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.6035904999880586,,
+tesseract,clean_scan,scan_clean_certificate.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.6309152999892831,,
+tesseract,clean_scan,scan_clean_test_report.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.5661172000109218,,
+tesseract,clean_scan,scan_clean_invoice.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.669343999994453,,
+tesseract,poor_scan,scan_poor_certificate.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.6393783999956213,,
+tesseract,poor_scan,scan_poor_test_report.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.6271302999812178,,
+tesseract,poor_scan,scan_poor_invoice.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.6132556000084151,,
+tesseract,complex_table,complex_table_1.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.5069708999944851,,
+tesseract,complex_table,complex_table_2.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.508857499982696,,
+tesseract,complex_table,complex_table_3.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.4947966000181623,,
+tesseract,office,office_cover_letter.docx,False,,1.0,1.0,,0.0,0.1,0,0
+tesseract,office,office_test_report.docx,False,,1.0,1.0,0.0,0.0,0.18,0,0
+tesseract,office,office_invoice.xlsx,False,,0.25165562913907286,0.30434782608695654,0.6111111111111112,1.0,0.02,21,1
+tesseract,rotated,rotated_scan_report.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.6204751000041142,,
+tesseract,rotated,rotated_native_report.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.5472571999998763,,
+tesseract,multilingual,french_certificate.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.5281355000042822,,
+tesseract,multilingual,german_report.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.5491211999906227,,
+tesseract,handwritten,handwritten_form_1.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.6422407999925781,,
+tesseract,handwritten,handwritten_form_2.pdf,True,OcrLanguageNotSupportedError: TesseractOcrCli has no model for the OCR language 'fra'. No traineddata file 'fra' is installed. Supported: iso:en.,,,,,0.7844558999931905,,

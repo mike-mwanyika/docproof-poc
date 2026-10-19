@@ -1,0 +1,327 @@
+{
+  "case_id": "CASE-POC",
+  "doc_id": "scan_poor_invoice",
+  "source_file": "scan_poor_invoice.pdf",
+  "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+  "engine": "rapidocr",
+  "page_count": 1,
+  "file_warnings": [
+    "malware scan skipped: ClamAV not installed in this PoC environment"
+  ],
+  "elements": [
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "heading",
+      "text": "Invoice",
+      "bbox": [
+        59.5,
+        72.7,
+        129.3,
+        96.3
+      ],
+      "parent_section": "Invoice",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "table",
+      "text": "",
+      "bbox": [
+        187.4,
+        169.3,
+        416.0,
+        266.1
+      ],
+      "parent_section": "Invoice",
+      "table_ref": "T1",
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "table_cell",
+      "text": "Description",
+      "bbox": [
+        192.6,
+        178.0,
+        252.6,
+        192.6
+      ],
+      "parent_section": "Invoice",
+      "table_ref": "T1.r0.c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "table_cell",
+      "text": "Gty Unit price Amount",
+      "bbox": [
+        281.9,
+        175.0,
+        409.9,
+        190.5
+      ],
+      "parent_section": "Invoice",
+      "table_ref": "T1.r0.c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "table_cell",
+      "text": "Sample anaysis",
+      "bbox": [
+        192.6,
+        195.6,
+        270.4,
+        210.7
+      ],
+      "parent_section": "Invoice",
+      "table_ref": "T1.r1.c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "table_cell",
+      "text": "250.00 1000.00",
+      "bbox": [
+        324.9,
+        191.8,
+        412.5,
+        208.1
+      ],
+      "parent_section": "Invoice",
+      "table_ref": "T1.r1.c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "table_cell",
+      "text": "120.00 120:00",
+      "bbox": [
+        326.6,
+        209.0,
+        411.2,
+        227.0
+      ],
+      "parent_section": "Invoice",
+      "table_ref": "T1.r2.c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "table_cell",
+      "text": "Express handing",
+      "bbox": [
+        190.9,
+        230.4,
+        276.0,
+        247.2
+      ],
+      "parent_section": "Invoice",
+      "table_ref": "T1.r3.c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "table_cell",
+      "text": "80.00 80.00",
+      "bbox": [
+        330.4,
+        227.0,
+        411.2,
+        243.8
+      ],
+      "parent_section": "Invoice",
+      "table_ref": "T1.r3.c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "table_cell",
+      "text": "Total (USD)",
+      "bbox": [
+        190.5,
+        248.5,
+        252.2,
+        264.4
+      ],
+      "parent_section": "Invoice",
+      "table_ref": "T1.r4.c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "table_cell",
+      "text": "1200.00",
+      "bbox": [
+        370.8,
+        245.1,
+        411.6,
+        261.0
+      ],
+      "parent_section": "Invoice",
+      "table_ref": "T1.r4.c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "scan_poor_invoice",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "scan_poor_invoice.pdf",
+      "source_hash": "526406b861eb829385307011dd035bf7d8a7f9aec925bc122fc9a2f9ab898732",
+      "warnings": [
+        "orientation uncertain (OSD confidence 0.36); left as is"
+      ],
+      "element_type": "figure",
+      "text": "",
+      "bbox": [
+        69.5,
+        105.3,
+        416.1,
+        264.9
+      ],
+      "parent_section": "Invoice",
+      "table_ref": null,
+      "confidence": null
+    }
+  ],
+  "ok": true,
+  "seconds": 7.73,
+  "routes": {
+    "1": "ocr"
+  }
+}

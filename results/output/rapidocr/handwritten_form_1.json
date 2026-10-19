@@ -1,0 +1,198 @@
+{
+  "case_id": "CASE-POC",
+  "doc_id": "handwritten_form_1",
+  "source_file": "handwritten_form_1.pdf",
+  "source_hash": "d741e92c25114bac783ce1194795f8b9d366f60bcc1c2d4f960f0db6606b928e",
+  "engine": "rapidocr",
+  "page_count": 1,
+  "file_warnings": [
+    "malware scan skipped: ClamAV not installed in this PoC environment"
+  ],
+  "elements": [
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "handwritten_form_1",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "handwritten_form_1.pdf",
+      "source_hash": "d741e92c25114bac783ce1194795f8b9d366f60bcc1c2d4f960f0db6606b928e",
+      "warnings": [],
+      "element_type": "heading",
+      "text": "Sample receipt form",
+      "bbox": [
+        37.3,
+        37.7,
+        242.0,
+        73.3
+      ],
+      "parent_section": "Sample receipt form",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "handwritten_form_1",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "handwritten_form_1.pdf",
+      "source_hash": "d741e92c25114bac783ce1194795f8b9d366f60bcc1c2d4f960f0db6606b928e",
+      "warnings": [],
+      "element_type": "paragraph",
+      "text": "Name:",
+      "bbox": [
+        40.3,
+        128.0,
+        81.0,
+        144.3
+      ],
+      "parent_section": "Sample receipt form",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "handwritten_form_1",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "handwritten_form_1.pdf",
+      "source_hash": "d741e92c25114bac783ce1194795f8b9d366f60bcc1c2d4f960f0db6606b928e",
+      "warnings": [],
+      "element_type": "paragraph",
+      "text": "Date:",
+      "bbox": [
+        40.7,
+        200.0,
+        74.7,
+        216.3
+      ],
+      "parent_section": "Sample receipt form",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "handwritten_form_1",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "handwritten_form_1.pdf",
+      "source_hash": "d741e92c25114bac783ce1194795f8b9d366f60bcc1c2d4f960f0db6606b928e",
+      "warnings": [],
+      "element_type": "paragraph",
+      "text": "Reference:",
+      "bbox": [
+        41.3,
+        272.7,
+        104.3,
+        287.3
+      ],
+      "parent_section": "Sample receipt form",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "handwritten_form_1",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "handwritten_form_1.pdf",
+      "source_hash": "d741e92c25114bac783ce1194795f8b9d366f60bcc1c2d4f960f0db6606b928e",
+      "warnings": [],
+      "element_type": "paragraph",
+      "text": "Signature:",
+      "bbox": [
+        41.0,
+        345.0,
+        101.0,
+        361.3
+      ],
+      "parent_section": "Sample receipt form",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "handwritten_form_1",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "handwritten_form_1.pdf",
+      "source_hash": "d741e92c25114bac783ce1194795f8b9d366f60bcc1c2d4f960f0db6606b928e",
+      "warnings": [],
+      "element_type": "paragraph",
+      "text": "Grace wanjiru",
+      "bbox": [
+        156.7,
+        123.7,
+        257.0,
+        144.3
+      ],
+      "parent_section": "Sample receipt form",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "handwritten_form_1",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "handwritten_form_1.pdf",
+      "source_hash": "d741e92c25114bac783ce1194795f8b9d366f60bcc1c2d4f960f0db6606b928e",
+      "warnings": [],
+      "element_type": "paragraph",
+      "text": "14/09/2026",
+      "bbox": [
+        156.3,
+        195.3,
+        253.3,
+        215.3
+      ],
+      "parent_section": "Sample receipt form",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "handwritten_form_1",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "handwritten_form_1.pdf",
+      "source_hash": "d741e92c25114bac783ce1194795f8b9d366f60bcc1c2d4f960f0db6606b928e",
+      "warnings": [],
+      "element_type": "paragraph",
+      "text": "SUB-2026-0412",
+      "bbox": [
+        156.3,
+        267.3,
+        284.0,
+        287.0
+      ],
+      "parent_section": "Sample receipt form",
+      "table_ref": null,
+      "confidence": null
+    },
+    {
+      "case_id": "CASE-POC",
+      "doc_id": "handwritten_form_1",
+      "page": 1,
+      "method": "ocr:rapidocr",
+      "source_file": "handwritten_form_1.pdf",
+      "source_hash": "d741e92c25114bac783ce1194795f8b9d366f60bcc1c2d4f960f0db6606b928e",
+      "warnings": [],
+      "element_type": "figure",
+      "text": "",
+      "bbox": [
+        155.7,
+        338.5,
+        356.6,
+        360.4
+      ],
+      "parent_section": "Sample receipt form",
+      "table_ref": null,
+      "confidence": null
+    }
+  ],
+  "ok": true,
+  "seconds": 7.39,
+  "routes": {
+    "1": "ocr"
+  }
+}
