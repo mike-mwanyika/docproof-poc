@@ -1,0 +1,14 @@
+docling
+rapidocr-onnxruntime
+onnxruntime
+pymupdf
+python-magic-bin
+jiwer
+rapidfuzz
+reportlab
+python-docx
+openpyxl
+pillow
+pypdf
+pypdfium2
+numpy
