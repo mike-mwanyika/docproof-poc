@@ -1,0 +1,17 @@
+# Docs kept local
+/docs
+
+# Virtual environments (rebuild from requirements*.txt)
+.venv/
+.venv*/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Regenerable run artifacts
+results/cache/
+results/work/
+results/output/*/_work/
+*.log
