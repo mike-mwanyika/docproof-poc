@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "note": "Tier 1 (rules) of the classification cascade. Weights are first guesses written alongside the synthetic data, so accuracy on that data is optimistic. Thresholds must be re-set from a validation split of real documents.",
+  "min_score": 4,
+  "ambiguity_margin": 0.75,
+  "classes": {
+    "K1_application_form": {
+      "start": ["application form"],
+      "signals": [
+        {"re": "application form", "w": 6},
+        {"re": "applicant name", "w": 3},
+        {"re": "contact email", "w": 2},
+        {"re": "declaration", "w": 2},
+        {"re": "signature", "w": 2}
+      ]
+    },
+    "K2_certificate": {
+      "start": ["certificate of analysis", "certificat d.analyse"],
+      "signals": [
+        {"re": "certificate of analysis", "w": 6},
+        {"re": "certificat d.analyse", "w": 6},
+        {"re": "certificate number", "w": 3},
+        {"re": "num.ro du certificat", "w": 3},
+        {"re": "expiry date", "w": 2},
+        {"re": "date d.expiration", "w": 2},
+        {"re": "attests? that|atteste que", "w": 2}
+      ]
+    },
+    "K3_test_report": {
+      "start": ["test report", "pr.fbericht"],
+      "signals": [
+        {"re": "test report", "w": 6},
+        {"re": "pr.fbericht", "w": 6},
+        {"re": "report reference", "w": 3},
+        {"re": "berichtsnummer", "w": 3},
+        {"re": "overall conclusion", "w": 3},
+        {"re": "test \\| limit \\| result", "w": 3},
+        {"re": "^\\s*(\\d\\.\\s*)?(scope|method|results|conclusion)\\b(\\s*\\d\\.)?\\s*$", "w": 3}
+      ]
+    },
+    "K4_correspondence": {
+      "start": ["cover letter"],
+      "signals": [
+        {"re": "cover letter", "w": 6},
+        {"re": "\\bdear\\b", "w": 3},
+        {"re": "sincerely", "w": 2},
+        {"re": "please find enclosed", "w": 3}
+      ]
+    },
+    "K5_invoice": {
+      "start": ["invoice"],
+      "signals": [
+        {"re": "^invoice$", "w": 6},
+        {"re": "invoice number", "w": 3},
+        {"re": "unit price", "w": 3},
+        {"re": "total \\(usd\\)", "w": 3},
+        {"re": "bill to", "w": 2}
+      ]
+    }
+  }
+}

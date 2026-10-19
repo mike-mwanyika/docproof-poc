@@ -1,0 +1,7 @@
+{
+  "note": "Approved reference material for the knowledge index, with the period each version is in force. Retrieval only uses the version in force on the case's submission date. v2 is newer but not yet in force, which tests that the newest version is not used by mistake.",
+  "documents": [
+    {"id": "KB-GUIDE", "file": "data/knowledge/submission_guideline_v1.pdf", "version": "1.0", "effective_from": "2025-01-01", "effective_to": "2026-12-31"},
+    {"id": "KB-GUIDE", "file": "data/knowledge/submission_guideline_v2.pdf", "version": "2.0", "effective_from": "2027-01-01", "effective_to": null}
+  ]
+}

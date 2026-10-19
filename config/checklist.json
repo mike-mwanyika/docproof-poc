@@ -1,0 +1,326 @@
+{
+  "id": "generic-submission",
+  "version": 2,
+  "note": "Declarative checklist. Each check names a rule type from docproof/engine.py plus parameters, so a new check of an existing type needs no code. Checks with executor 'ai' run through docproof/ai_checks.py when a model is configured, otherwise they report not_determined. The expression language (CEL vs JSON Logic) is still undecided; this uses named rule types instead.",
+  "checks": [
+    {
+      "id": "CHK-01",
+      "version": 1,
+      "title": "All required documents are present",
+      "executor": "rule",
+      "rule": "required_documents",
+      "params": {
+        "classes": [
+          "K4_correspondence",
+          "K1_application_form",
+          "K2_certificate",
+          "K3_test_report",
+          "K5_invoice"
+        ]
+      },
+      "severity": "critical",
+      "on_missing": "fail"
+    },
+    {
+      "id": "CHK-02",
+      "version": 1,
+      "title": "Mandatory sections exist in the test report",
+      "executor": "rule",
+      "rule": "required_sections",
+      "params": {
+        "class": "K3_test_report",
+        "sections": [
+          "scope",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      },
+      "severity": "major",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "CHK-03",
+      "version": 1,
+      "title": "Required fields are filled on the form",
+      "executor": "rule",
+      "rule": "required_fields",
+      "params": {
+        "class": "K1_application_form",
+        "fields": [
+          "applicant",
+          "submission_reference",
+          "date",
+          "product_batch",
+          "contact_email",
+          "declared_total"
+        ]
+      },
+      "severity": "major",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "CHK-04",
+      "version": 1,
+      "title": "Applicant name agrees across documents",
+      "executor": "cross_document",
+      "rule": "equal_across",
+      "params": {
+        "groups": [
+          {
+            "label": "applicant name",
+            "compare": "name",
+            "pass_at": 90,
+            "fail_below": 60,
+            "items": [
+              [
+                "K1_application_form",
+                "applicant"
+              ],
+              [
+                "K2_certificate",
+                "holder"
+              ],
+              [
+                "K3_test_report",
+                "applicant"
+              ],
+              [
+                "K5_invoice",
+                "bill_to"
+              ]
+            ]
+          }
+        ]
+      },
+      "severity": "major",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "CHK-05",
+      "version": 1,
+      "title": "Dates follow a logical sequence",
+      "executor": "rule",
+      "rule": "date_order",
+      "params": {
+        "pairs": [
+          {
+            "label": "certificate issued before it expires",
+            "earlier": [
+              "K2_certificate",
+              "issue_date"
+            ],
+            "later": [
+              "K2_certificate",
+              "expiry_date"
+            ]
+          },
+          {
+            "label": "certificate issued on or before submission",
+            "earlier": [
+              "K2_certificate",
+              "issue_date"
+            ],
+            "later": [
+              "K1_application_form",
+              "date"
+            ]
+          }
+        ]
+      },
+      "severity": "major",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "CHK-06",
+      "version": 1,
+      "title": "Reference numbers are consistent",
+      "executor": "cross_document",
+      "rule": "equal_across",
+      "params": {
+        "groups": [
+          {
+            "label": "submission reference",
+            "compare": "ref",
+            "items": [
+              [
+                "K4_correspondence",
+                "submission_reference"
+              ],
+              [
+                "K1_application_form",
+                "submission_reference"
+              ],
+              [
+                "K3_test_report",
+                "reference"
+              ],
+              [
+                "K5_invoice",
+                "submission_reference"
+              ]
+            ]
+          },
+          {
+            "label": "product batch",
+            "compare": "ref",
+            "items": [
+              [
+                "K4_correspondence",
+                "product_batch"
+              ],
+              [
+                "K1_application_form",
+                "product_batch"
+              ],
+              [
+                "K3_test_report",
+                "product_batch"
+              ]
+            ]
+          }
+        ]
+      },
+      "severity": "major",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "CHK-07",
+      "version": 1,
+      "title": "Certificate is valid on the submission date",
+      "executor": "rule",
+      "rule": "date_order",
+      "params": {
+        "pairs": [
+          {
+            "label": "submission date is not after certificate expiry",
+            "earlier": [
+              "K1_application_form",
+              "date"
+            ],
+            "later": [
+              "K2_certificate",
+              "expiry_date"
+            ]
+          }
+        ]
+      },
+      "severity": "major",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "CHK-08",
+      "version": 1,
+      "title": "Required signatures are present",
+      "executor": "rule",
+      "rule": "required_signature",
+      "params": {
+        "class": "K1_application_form",
+        "field": "signature_present"
+      },
+      "severity": "major",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "CHK-09",
+      "version": 1,
+      "title": "Declared total matches the invoice table",
+      "executor": "rule",
+      "rule": "amount_equal",
+      "params": {
+        "tolerance": "0.01",
+        "items": [
+          [
+            "K1_application_form",
+            "declared_total"
+          ],
+          [
+            "K5_invoice",
+            "total"
+          ],
+          [
+            "K5_invoice",
+            "computed_total"
+          ]
+        ]
+      },
+      "severity": "minor",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "CHK-10",
+      "version": 1,
+      "title": "Report conclusion is supported by its results",
+      "executor": "ai",
+      "rule": "ai_check",
+      "params": {
+        "kind": "conclusion_vs_results",
+        "class": "K3_test_report",
+        "needs_classes": [
+          "K3_test_report"
+        ],
+        "question": "Does the test report's overall conclusion agree with its results table? Answer fail if the conclusion says the batch passes or meets the specification while any result in the table is outside its limit or marked Fail. Answer pass if every result is within its limit and the conclusion says the batch passes."
+      },
+      "severity": "major",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "CHK-11",
+      "version": 1,
+      "title": "No document contradicts another",
+      "executor": "ai",
+      "rule": "ai_check",
+      "params": {
+        "kind": "contradictions",
+        "question": "Do any statements in these passages contradict each other in meaning, for example a conclusion that conflicts with reported results, or one document stating something another document denies? Do not count differences in reference numbers, names, dates or money totals; those are checked separately. Answer fail and quote both sides if you find a contradiction; otherwise answer pass."
+      },
+      "severity": "major",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "CHK-12",
+      "version": 1,
+      "title": "Package meets the guideline section on supporting evidence",
+      "executor": "ai",
+      "rule": "ai_check",
+      "params": {
+        "kind": "guideline_evidence",
+        "requirement_query": "supporting evidence required for a submission",
+        "kb_k": 2,
+        "case_k": 4,
+        "question": "The passages marked guideline state a requirement for supporting evidence. Do the passages marked package show every item that requirement asks for? Answer pass only if each required item is present in the package passages, fail if a required item is clearly absent, and quote both the requirement and the package evidence."
+      },
+      "severity": "major",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "META",
+      "version": 1,
+      "title": "Every page was readable; unreadable pages are escalated",
+      "executor": "gate",
+      "rule": "readability_gate",
+      "params": {},
+      "severity": "control",
+      "on_missing": "not_determined"
+    },
+    {
+      "id": "INJ",
+      "version": 1,
+      "title": "No document contains instructions aimed at the system",
+      "executor": "gate",
+      "rule": "injection_scan",
+      "params": {
+        "patterns": [
+          "ignore (all )?(the )?(previous|prior|above) instructions",
+          "disregard (all )?(the )?(previous|prior|above)",
+          "mark (every|all) check",
+          "do not report any finding",
+          "you are now",
+          "system prompt"
+        ]
+      },
+      "severity": "major",
+      "on_missing": "pass"
+    }
+  ]
+}

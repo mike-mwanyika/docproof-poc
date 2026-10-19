@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "note": "Class-specific fields. labels match a table label cell or a 'Label: value' line; patterns are regexes whose group 1 is the value; type controls normalisation. The 15 generic fields from the research track are not implemented yet.",
+  "K1_application_form": {
+    "fields": [
+      {"name": "applicant", "labels": ["Applicant name"], "type": "text"},
+      {"name": "submission_reference", "labels": ["Submission reference"], "type": "ref"},
+      {"name": "date", "labels": ["Submission date"], "type": "date"},
+      {"name": "product_batch", "labels": ["Product batch"], "type": "text"},
+      {"name": "contact_email", "labels": ["Contact email"], "type": "email"},
+      {"name": "declared_total", "labels": ["Declared total"], "type": "amount"}
+    ],
+    "derived": ["signature_present"]
+  },
+  "K2_certificate": {
+    "fields": [
+      {"name": "certificate_number", "labels": ["Certificate number", "Numéro du certificat"], "type": "ref"},
+      {"name": "holder", "labels": ["Holder", "Titulaire"], "type": "text"},
+      {"name": "issue_date", "labels": ["Issue date", "Date d'émission"], "type": "date"},
+      {"name": "expiry_date", "labels": ["Expiry date", "Date d'expiration"], "type": "date"}
+    ],
+    "derived": []
+  },
+  "K3_test_report": {
+    "fields": [
+      {"name": "reference", "labels": ["Report reference", "Berichtsnummer"], "type": "ref"},
+      {"name": "applicant", "labels": ["Applicant", "Antragsteller"], "type": "text"},
+      {"name": "product_batch", "labels": ["Product batch", "Chargennummer"], "type": "text"},
+      {"name": "conclusion", "patterns": ["Overall conclusion:\\s*(\\w+)"], "type": "text"}
+    ],
+    "derived": ["sections"]
+  },
+  "K4_correspondence": {
+    "fields": [
+      {"name": "submission_reference", "patterns": ["submission\\s+(SUB-\\d{4}-\\d{4})"], "type": "ref"},
+      {"name": "product_batch", "patterns": ["covering\\s+(Batch\\s+\\w+)"], "type": "text"},
+      {"name": "date", "patterns": ["Date:\\s*(\\d{4}-\\d{2}-\\d{2})"], "type": "date"}
+    ],
+    "derived": []
+  },
+  "K5_invoice": {
+    "fields": [
+      {"name": "invoice_number", "labels": ["Invoice number"], "type": "ref"},
+      {"name": "bill_to", "labels": ["Bill to"], "type": "text"},
+      {"name": "submission_reference", "labels": ["Submission reference"], "type": "ref"},
+      {"name": "total", "labels": ["Total"], "cell": "last", "type": "amount"}
+    ],
+    "derived": ["computed_total"]
+  }
+}
